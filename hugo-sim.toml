@@ -1,0 +1,30 @@
+baseURL = 'https://linushuan.github.io/blog/sim/'
+languageCode = 'en'
+title = "Linuk's Notes"
+theme = 'anatole'
+publishDir = 'public/sim'
+
+[[menu.main]]
+    name = "Home"
+    url = "/blog/sim/"
+    weight = 1
+[[menu.main]]
+    name = "Post"
+    url = "/blog/sim/posts/"
+    weight = 2
+[[menu.main]]
+    name = "Tag"
+    url = "/blog/sim/tags/"
+    weight = 3
+[[menu.main]]
+    name = "About"
+    url = "/blog/sim/about/"
+    weight = 4
+[[menu.main]]
+    name = "Style"
+    url = "/blog/ani/"
+    weight = 5
+
+[params]
+    math = true
+    author = "Linuk"

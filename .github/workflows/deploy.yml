@@ -1,0 +1,32 @@
+name: Deploy Dual-Theme Blog
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build Both Themes
+        run: |
+          hugo --config hugo-ani.toml
+          hugo --config hugo-sim.toml
+      - name: Create Root Redirect
+        run: |
+          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/blog/ani/"></head><body><p>Redirecting to <a href="/blog/ani/">Ani Style</a>...</p></body></html>' > public/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
