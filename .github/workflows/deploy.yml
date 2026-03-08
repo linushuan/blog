@@ -10,6 +10,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -17,13 +18,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Install Dart Sass
+        run: |
+          curl -L https://github.com/sass/dart-sass/releases/download/1.77.1/dart-sass-1.77.1-linux-x64.tar.gz | tar -xz
+          echo "$(pwd)/dart-sass" >> $GITHUB_PATH
+
       - name: Build Both Themes
         run: |
+          rm -rf public
           hugo --config hugo-ani.toml
           hugo --config hugo-sim.toml
+
       - name: Create Root Redirect
         run: |
-          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/blog/ani/"></head><body><p>Redirecting to <a href="/blog/ani/">Ani Style</a>...</p></body></html>' > public/index.html
+          echo '<html><head><meta http-equiv="refresh" content="0; url=/blog/ani/"></head><body><p>Redirecting to <a href="/blog/ani/">Ani Style</a>...</p></body></html>' > public/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
