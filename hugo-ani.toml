@@ -27,5 +27,10 @@ publishDir = 'public/ani'
     weight = 5
 
 [params]
-    math = true
     author = "Linuk"
+    [params.math]
+        enable = true
+        [params.math.katex]
+            enable = false
+        [params.math.mathjax]
+            enable = true
