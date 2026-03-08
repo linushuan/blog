@@ -28,7 +28,7 @@ jobs:
       - name: Build Both Themes
         run: |
           rm -rf public
-          hugo --config hugo-ani.toml
+          hugo --config hugo-ani.toml --configDir config-ani
           hugo --config hugo-sim.toml
 
       - name: Create Root Redirect

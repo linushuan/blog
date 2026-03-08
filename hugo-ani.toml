@@ -1,36 +1,18 @@
 baseURL = 'https://linushuan.github.io/blog/ani/'
-languageCode = 'zh-tw'
+languageCode = 'zh-TW'
+# defaultContentLanguage = 'zh-TW'
 title = "Wonderhoi's Realm"
 theme = 'reimu'
 layoutDir = 'layouts-ani'
 publishDir = 'public/ani'
+mainSections = ["posts"]
 
-[[menu.main]]
-    name = "ホーム"
-    url = "/blog/ani/"
-    weight = 1
-[[menu.main]]
-    name = "投稿一覧"
-    url = "/blog/ani/posts/"
-    weight = 2
-[[menu.main]]
-    name = "タグ"
-    url = "/blog/ani/tags/"
-    weight = 3
-[[menu.main]]
-    name = "自己紹介"
-    url = "/blog/ani/about/"
-    weight = 4
-[[menu.main]]
-    name = "様式"
-    url = "/blog/sim/"
-    weight = 5
+[markup.highlight]
+  noClasses = false
+  guessSyntax = true
 
-[params]
-    author = "Linuk"
-    [params.math]
-        enable = true
-        [params.math.katex]
-            enable = false
-        [params.math.mathjax]
-            enable = true
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [["\\[", "\\]"], ["$$", "$$"]]
+    inline = [["\\(", "\\)"], ["$", "$"]]
