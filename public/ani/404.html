@@ -36,11 +36,11 @@ data-theme-mode="auto"
     property="og:site_name"
     content="Wonderhoi&#39;s Realm"
   />
-  <meta property="og:image" content="http://localhost:1313/blog/ani/images/banner.webp" />
+  <meta property="og:image" content="http://localhost:1313/blog/ani/banner.jpg" />
   <meta property="article:author" content="Wonderhoi" />
   <meta property="article:published_time" content="0001-01-01T00:00:00&#43;00:00" />
-  <meta property="article:modified_time" content="0001-01-01T00:00:00&#43;00:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="http://localhost:1313/blog/ani/images/banner.webp" />
-<link rel="shortcut icon" href="/blog/ani/favicon.ico"><link rel="stylesheet" href="/blog/ani/css/main.css" /><link
+  <meta property="article:modified_time" content="0001-01-01T00:00:00&#43;00:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="http://localhost:1313/blog/ani/banner.jpg" />
+<link rel="stylesheet" href="/blog/ani/css/main.css" /><link
     rel="preload"
     as="style"
     href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
@@ -65,6 +65,9 @@ data-theme-mode="auto"
     rel="stylesheet"
     href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css"
     integrity="sha384-tLMkTWh2pfXNWGFlUS0w1TFtRG5xZ9lPWFOooj&#43;vDDLIL&#43;xBGQU/voDBY5XE2lVh" crossorigin="anonymous"/><style>
+#header {
+  height: 55vh !important;
+}
 #nav-style-btn:before {
   font-family: var(--font-icon);
   content: "\f53f";
@@ -96,7 +99,7 @@ data-theme-mode="auto"
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-style-btn" class="nav-icon" href="https://linushuan.github.io/blog/sim/" title="Switch Style" aria-label="Switch Style"></a>
   </nav></div>
-<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/blog/ani/images/banner.webp" alt=""><div id="header-outer">
+<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/blog/ani/banner.jpg" alt=""><div id="header-outer">
     <div id="header-title"><a href="/blog/ani/" id="logo">
           <h1 data-aos="slide-up">4 0 4 (ﾟ⊿ﾟ)ﾂ</h1>
         </a><h2 id="subtitle-wrap" data-aos="slide-down">
@@ -164,7 +167,7 @@ data-theme-mode="auto"
           title: "404 Page not found",
           url: "http:\/\/localhost:1313\/blog\/ani\/404.html",
           description: "",
-          cover: "http:\/\/localhost:1313\/blog\/ani\/images\/banner.webp",
+          cover: "http:\/\/localhost:1313\/blog\/ani\/banner.jpg",
         };
       </script><script src="/blog/ani/js/insert_highlight.js" data-pjax ></script><script src="/blog/ani/js/tabs.js" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
           if (_$$(`${gallery} ${children}`).length > 0) {
@@ -225,7 +228,7 @@ data-theme-mode="auto"
         new APlayer({
             theme: "var(--color-link)",
             container: document.getElementById('aplayer'),
-            audio: JSON.parse("[{\"artist\":\"吉乃\",\"cover\":\"/blog/ani/music/nie.png\",\"name\":\"贄-nie-\",\"url\":\"/blog/ani/music/nie.mp3\"},{\"artist\":\"酸欠少女\",\"cover\":\"/blog/ani/music/flower.png\",\"name\":\"Tower of Flower\",\"url\":\"/blog/ani/music/flower.mp3\"},{\"artist\":\"ado\",\"cover\":\"/blog/ani/music/ibara.png\",\"name\":\"いばら\",\"url\":\"/blog/ani/music/ibara.mp3\"}]") || [],
+            audio: JSON.parse("[{\"artist\":\"吉乃\",\"cover\":\"/blog/ani/music/nie.png\",\"name\":\"贄-nie-\",\"url\":\"https://pub-da2c908b437843249fe1b8b3923649ee.r2.dev/%E3%80%90Official%20MV%E3%80%91%E8%B4%84-nie-%E2%A7%B8%E5%90%89%E4%B9%83.mp3\"},{\"artist\":\"酸欠少女\",\"cover\":\"/blog/ani/music/flower.png\",\"name\":\"Tower of Flower\",\"url\":\"https://pub-da2c908b437843249fe1b8b3923649ee.r2.dev/Tower%20of%20Flower.mp3\"},{\"artist\":\"ado\",\"cover\":\"/blog/ani/music/ibara.png\",\"name\":\"いばら\",\"url\":\"https://pub-da2c908b437843249fe1b8b3923649ee.r2.dev/%E3%80%90Ado%E3%80%91%E3%81%84%E3%81%B0%E3%82%89.mp3\"}]") || [],
             fixed: window.matchMedia('(max-width: 768px)').matches ? true : ( true  || false),
             autoplay:  true  || false,
             loop: 'all' || 'all',
