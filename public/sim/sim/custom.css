@@ -1,0 +1,51 @@
+/* 側邊欄容器需要允許內部元件定位 */
+.sidebar__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* 讓 TOC 具備黏性 */
+.sidebar-toc {
+    position: -webkit-sticky; /* 支援 Safari */
+    position: sticky;
+    top: 20px;               /* 距離頂部 20px 停住 */
+    margin-top: 30px;
+    padding: 0 20px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* 美化目錄標題 */
+.toc-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #bbb;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* 隱藏預設的 TOC 列表點點 */
+.sidebar-toc nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* 子標題縮排 */
+.sidebar-toc nav ul ul {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.sidebar-toc a {
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+    line-height: 1.8;
+    transition: color 0.2s;
+}
+
+.sidebar-toc a:hover {
+    color: #000;
+}

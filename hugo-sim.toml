@@ -1,30 +1,56 @@
 baseURL = 'https://linushuan.github.io/blog/sim/'
 languageCode = 'en'
-title = "Linuk's Notes"
+title = "Linuk Note's"
+layoutDir = "layouts-sim"
 theme = 'anatole'
 publishDir = 'public/sim'
 
 [[menu.main]]
     name = "Home"
-    url = "/blog/sim/"
+    url = "/"
     weight = 1
 [[menu.main]]
     name = "Post"
-    url = "/blog/sim/posts/"
+    url = "/posts/"
     weight = 2
 [[menu.main]]
     name = "Tag"
-    url = "/blog/sim/tags/"
+    url = "/tags/"
     weight = 3
 [[menu.main]]
     name = "About"
-    url = "/blog/sim/about/"
+    url = "/about/"
     weight = 4
-[[menu.main]]
-    name = "Style"
-    url = "/blog/ani/"
-    weight = 5
 
 [params]
     math = true
+    mathjax = true
+    readMore = true
+    showFullContent = false
+    googleFonts = ["Roboto", "Fira Code"]
+    title = "Linuk Page"
     author = "Linuk"
+    profilePicture = "icon.png"
+    mainSections = ["posts"]
+    customCss = ["sim/css/custom.css"]
+    fontawesome = true
+    description = "TNFSH | Coder | Earth science lover"
+
+
+[[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/linushuan"
+
+[[params.socialIcons]]
+    icon = "fab fa-instagram"
+    title = "Instagram"
+    url = "https://www.instagram.com/cuberhuan08/"
+
+[[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "Email"
+    url = "mailto:linus971211@gmail.com"
+
+
+

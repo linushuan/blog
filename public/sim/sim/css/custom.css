@@ -1,0 +1,69 @@
+.toc-floating {
+    position: fixed;
+    top: 2rem;
+    right: 1.5rem;
+    width: 220px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    font-size: 0.82rem;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.toc-floating::before {
+    content: "Table of Content";
+    display: block;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.6rem;
+    color: #555;
+}
+
+.toc-floating nav ul {
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.toc-floating nav li {
+    list-style: none;
+    margin: 0.25rem 0;
+}
+
+.toc-floating nav a {
+    color: #666;
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.2s;
+}
+
+.toc-floating nav a:hover {
+    color: #333;
+}
+
+/* 深色模式 */
+.dark .toc-floating {
+    background: #2a2a2a;
+    border-color: #444;
+    color: #ccc;
+}
+
+.dark .toc-floating nav a {
+    color: #aaa;
+}
+
+.dark .toc-floating nav a:hover {
+    color: #fff;
+}
+
+@media (max-width: 1300px) {
+    .toc-floating {
+        display: none;
+    }
+}

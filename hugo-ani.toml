@@ -2,6 +2,7 @@ baseURL = 'https://linushuan.github.io/blog/ani/'
 languageCode = 'zh-tw'
 title = "Wonderhoi's Realm"
 theme = 'reimu'
+layoutDir = 'layouts-ani'
 publishDir = 'public/ani'
 
 [[menu.main]]
