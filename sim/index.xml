@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linuk&#39;s Notes</title>
+    <title>Linuk Note&#39;s</title>
     <link>https://linushuan.github.io/blog/sim/</link>
-    <description>Recent content on Linuk&#39;s Notes</description>
+    <description>Recent content on Linuk Note&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://linushuan.github.io/blog/sim/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://linushuan.github.io/blog/sim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://linushuan.github.io/blog/sim/posts/test/</link>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
+      
+      <guid>https://linushuan.github.io/blog/sim/posts/test/</guid>
+      
+        <description>哈哈這我</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linushuan.github.io/blog/sim/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linushuan.github.io/blog/sim/about/</guid>
+      
+        <description>&lt;h2 id=&#34;name&#34;&gt;name&lt;/h2&gt;
+&lt;h4 id=&#34;yellow-top-right&#34;&gt;yellow top right&lt;/h4&gt;
+&lt;h4 id=&#34;linuk&#34;&gt;linuk&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://linushuan.github.io/blog/sim/icon.png&#34; alt=&#34;cube&#34;&gt;
+主要用這個(大概啦&lt;/p&gt;
+&lt;h4 id=&#34;wonderhoi&#34;&gt;wonderhoi&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://preview.redd.it/kvxwxs89gqj81.png?auto=webp&amp;amp;s=5d9e3be561dcaa0af05beea32d88b1ec60239b71&#34; alt=&#34;wonderhoy&#34;&gt;
+寫code用的&lt;/p&gt;
+&lt;h2 id=&#34;會的東西&#34;&gt;會的東西:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;轉方塊&lt;/li&gt;
+&lt;li&gt;彈鋼琴&lt;/li&gt;
+&lt;li&gt;寫程式&lt;/li&gt;
+&lt;li&gt;耍廢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;興趣&#34;&gt;興趣:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;看木棉花的馬拉松直播&lt;/li&gt;
+&lt;li&gt;看動畫&lt;/li&gt;
+&lt;li&gt;轉方塊&lt;/li&gt;
+&lt;li&gt;打音遊&lt;/li&gt;
+&lt;li&gt;玩貓戰&lt;/li&gt;
+&lt;li&gt;玩minecraft&lt;/li&gt;
+&lt;li&gt;寫程式&lt;/li&gt;
+&lt;li&gt;當半個GO廚&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;各種喜歡的番&#34;&gt;各種喜歡的番:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;葬送的芙莉蓮&lt;/li&gt;
+&lt;li&gt;孤獨搖滾&lt;/li&gt;
+&lt;li&gt;關於我轉生成史萊姆這檔事&lt;/li&gt;
+&lt;li&gt;Lycoris Recoil 莉可麗絲&lt;/li&gt;
+&lt;li&gt;末日時在做什麼？有沒有空？可以來拯救嗎？&lt;/li&gt;
+&lt;li&gt;四月是你的謊言&lt;/li&gt;
+&lt;li&gt;持續狩獵史萊姆三百年，不知不覺就練到LV MAX&lt;/li&gt;
+&lt;li&gt;對我垂涎欲滴的非人少女&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;自我介紹&#34;&gt;自我介紹:&lt;/h2&gt;
+&lt;p&gt;TNFSH small high two.&lt;br&gt;
+Also a deadline fighter.&lt;br&gt;
+A Earth science and code lover.&lt;br&gt;
+Cubing but not cubing now.&lt;br&gt;
+TOJ: 0 從零開始的&lt;a href=&#34;https://toj.tfcis.org/oj/&#34;&gt;TOJ&lt;/a&gt;生活&lt;br&gt;
+INTP&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>

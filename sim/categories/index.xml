@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Linuk&#39;s Notes</title>
+    <title>Categories on Linuk Note&#39;s</title>
     <link>https://linushuan.github.io/blog/sim/categories/</link>
-    <description>Recent content in Categories on Linuk&#39;s Notes</description>
+    <description>Recent content in Categories on Linuk Note&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://linushuan.github.io/blog/sim/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://linushuan.github.io/blog/sim/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>https://linushuan.github.io/blog/sim/categories/notes/</link>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
+      
+      <guid>https://linushuan.github.io/blog/sim/categories/notes/</guid>
+      
+        <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
