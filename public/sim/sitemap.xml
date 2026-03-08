@@ -17,12 +17,13 @@
     <loc>http://localhost:1313/blog/sim/categories/notes/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/sim/posts/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/sim/tags/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/sim/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/friend/</loc>
   </url>
 </urlset>
