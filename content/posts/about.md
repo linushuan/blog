@@ -16,8 +16,6 @@ thumbnail: "icon.png" # Anatole
 cover: "icon.png"     # Reimu
 ---
 
-About me?
-===
 name:
 ---
 #### yellow top right
@@ -32,10 +30,10 @@ name:
 
 學歷(?):
 ---
-國小一二年級: 隆田國小
-國小三到六年級: 麻豆國小 資優班
-國中: 建興國中 資優班
-高中: 台南一中 科學班
+國小一二年級: 隆田國小\
+國小三到六年級: 麻豆國小 資優班\
+國中: 建興國中 資優班\
+高中: 台南一中 科學班\
 大學: ???
 
 我有記得的競賽經驗:
@@ -55,6 +53,7 @@ name:
 - 河合鋼琴檢定 演奏6級
 - 全民英檢 初級
 - APCS 舊制 5+4
+- APCS 新制 5+5
 
 會的東西:
 ---
@@ -100,20 +99,9 @@ name:
 自我介紹:
 ---
 
-TNFSH small high one.
-Also a deadline fighter.
-A Earth science and code lover.
-Cubing but not cubing now.
-TOJ: 0 從零開始的[TOJ](https://toj.tfcis.org/oj/)生活
-INTP & ISTP
-
-link list:
----
-[日常](https://hackmd.io/pOEYjwJTRcqAp8zgbgJzXQ)
-[code](https://hackmd.io/odeJ1PA2R_2uSdjA15bomw)
-[CTF](https://hackmd.io/AeNp96jlRuiplF1DxGOi_A)
-[地科](https://hackmd.io/Ygwj1DPOSBuVYrym2st4bg)
-
-我的一些帳號:
----
-待補
+TNFSH small high one.\
+Also a deadline fighter.\
+A Earth science and code lover.\
+Cubing but not cubing now.\
+TOJ: 0 從零開始的[TOJ](https://toj.tfcis.org/oj/)生活\
+INTP
