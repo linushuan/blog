@@ -29,7 +29,7 @@ jobs:
         run: |
           rm -rf public
           hugo --config hugo-ani.toml --configDir config-ani
-          hugo --config hugo-sim.toml
+          hugo --config hugo-sim.toml --cleanDestinationDir=false
 
       - name: Create Root Redirect
         run: |
