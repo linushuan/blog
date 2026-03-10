@@ -98,4 +98,4 @@ reimu 本身的設定也很繁雜\
 又用 AI 寫一個自動初始化的出來了
 我怎麼這麼強(懶)大(惰)
 
--# cover from: [うーたん＠FANBOX開始](https://www.pixiv.net/en/artworks/101490315)
+<small>cover from: [うーたん＠FANBOX開始](https://www.pixiv.net/en/artworks/101490315)</small>
