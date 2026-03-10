@@ -277,10 +277,22 @@
         </script>
       {{- end -}}
       {{- if .Site.Params.math.mathjax.enable -}}
+        {{- $mathjaxUrl := index (partial "helpers/vendorCdn.html" (dict "item" .Site.Data.vendor.js.mathjax "ctx" .Site)) 0 -}}
         <script data-pjax>
-          window.MathJax = JSON.parse({{ .Site.Params.math.mathjax.options | jsonify }})[0];
+          (function() {
+            if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+              MathJax.startup.document.clear();
+              MathJax.startup.document.updateDocument();
+              MathJax.typesetPromise();
+            } else if (!document.querySelector('script[src*="mathjax"]')) {
+              window.MathJax = JSON.parse({{ .Site.Params.math.mathjax.options | jsonify }})[0];
+              var s = document.createElement('script');
+              s.src = '{{ $mathjaxUrl }}';
+              s.defer = true;
+              document.head.appendChild(s);
+            }
+          })();
         </script>
-        {{- partial "helpers/cdnJs.html" (dict "name" "mathjax" "ctx" . "defer" true "pjax" true) -}}
       {{- end -}}
     {{- end -}}
     {{- if and .IsHome (reflect.IsMap .Site.Params.subtitle) .Site.Params.subtitle.typing.enable -}}

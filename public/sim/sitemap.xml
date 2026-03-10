@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/sim/tags/blog/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/posts/build_blog/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/categories/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/categories/daily/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/categories/notes/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/posts/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sim/tags/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/sim/tags/about/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/sim/posts/test/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/sim/categories/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/sim/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/sim/categories/notes/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/sim/tags/</loc>
+    <loc>http://localhost:1313/blog/sim/posts/about/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/sim/about/</loc>

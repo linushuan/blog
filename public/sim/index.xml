@@ -6,13 +6,24 @@
     <description>Recent content on Linuk Note&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/sim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Mar 2026 20:26:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/sim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Blog</title>
+      <link>http://localhost:1313/blog/sim/posts/build_blog/</link>
+      <pubDate>Tue, 10 Mar 2026 20:26:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/blog/sim/posts/build_blog/</guid>
+      
+        <description>我怎麼拼出這個網站的</description>
+      
+    </item>
+    
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/blog/sim/posts/test/</link>
+      <link>http://localhost:1313/blog/sim/posts/about/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/blog/sim/posts/test/</guid>
+      <guid>http://localhost:1313/blog/sim/posts/about/</guid>
       
         <description>哈哈這我</description>
       
@@ -25,14 +36,37 @@
       
       <guid>http://localhost:1313/blog/sim/about/</guid>
       
-        <description>&lt;h2 id=&#34;name&#34;&gt;name&lt;/h2&gt;
+        <description>&lt;h2 id=&#34;name&#34;&gt;name:&lt;/h2&gt;
 &lt;h4 id=&#34;yellow-top-right&#34;&gt;yellow top right&lt;/h4&gt;
 &lt;h4 id=&#34;linuk&#34;&gt;linuk&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://linushuan.github.io/blog/sim/icon.png&#34; alt=&#34;cube&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/JwDUgDw.jpeg&#34; alt=&#34;cube&#34;&gt;
 主要用這個(大概啦&lt;/p&gt;
 &lt;h4 id=&#34;wonderhoi&#34;&gt;wonderhoi&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://preview.redd.it/kvxwxs89gqj81.png?auto=webp&amp;amp;s=5d9e3be561dcaa0af05beea32d88b1ec60239b71&#34; alt=&#34;wonderhoy&#34;&gt;
 寫code用的&lt;/p&gt;
+&lt;h2 id=&#34;學歷&#34;&gt;學歷(?):&lt;/h2&gt;
+&lt;p&gt;國小一二年級: 隆田國小&lt;br&gt;
+國小三到六年級: 麻豆國小 資優班&lt;br&gt;
+國中: 建興國中 資優班&lt;br&gt;
+高中: 台南一中 科學班&lt;br&gt;
+大學: ???&lt;/p&gt;
+&lt;h2 id=&#34;我有記得的競賽經驗&#34;&gt;我有記得的競賽經驗:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;科展 忘了/全國第一/台南第二&lt;/li&gt;
+&lt;li&gt;雲嘉南數學競賽銅牌&lt;/li&gt;
+&lt;li&gt;資訊學科能力競賽 校內初選第11&lt;/li&gt;
+&lt;li&gt;成大邀請賽 進入複賽&lt;/li&gt;
+&lt;li&gt;地科能力競賽 南區第三/全國二等獎&lt;/li&gt;
+&lt;li&gt;地科奧林匹亞國手選拔營&lt;/li&gt;
+&lt;li&gt;高一程式設計排名賽 第四(五)名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我有記得的檢定考試經驗&#34;&gt;我有記得的檢定(考試)經驗:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;河合鋼琴檢定 演奏6級&lt;/li&gt;
+&lt;li&gt;全民英檢 初級&lt;/li&gt;
+&lt;li&gt;APCS 舊制 5+4&lt;/li&gt;
+&lt;li&gt;APCS 新制 5+5&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;會的東西&#34;&gt;會的東西:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;轉方塊&lt;/li&gt;
@@ -51,6 +85,12 @@
 &lt;li&gt;寫程式&lt;/li&gt;
 &lt;li&gt;當半個GO廚&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;喜歡的科目&#34;&gt;喜歡的科目:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;數學&lt;/li&gt;
+&lt;li&gt;地科&lt;/li&gt;
+&lt;li&gt;資訊&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;各種喜歡的番&#34;&gt;各種喜歡的番:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;葬送的芙莉蓮&lt;/li&gt;
@@ -60,10 +100,9 @@
 &lt;li&gt;末日時在做什麼？有沒有空？可以來拯救嗎？&lt;/li&gt;
 &lt;li&gt;四月是你的謊言&lt;/li&gt;
 &lt;li&gt;持續狩獵史萊姆三百年，不知不覺就練到LV MAX&lt;/li&gt;
-&lt;li&gt;對我垂涎欲滴的非人少女&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;自我介紹&#34;&gt;自我介紹:&lt;/h2&gt;
-&lt;p&gt;TNFSH small high two.&lt;br&gt;
+&lt;p&gt;TNFSH small high one.&lt;br&gt;
 Also a deadline fighter.&lt;br&gt;
 A Earth science and code lover.&lt;br&gt;
 Cubing but not cubing now.&lt;br&gt;

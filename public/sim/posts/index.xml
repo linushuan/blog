@@ -6,13 +6,24 @@
     <description>Recent content in Posts on Linuk Note&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/sim/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Mar 2026 20:26:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/sim/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Blog</title>
+      <link>http://localhost:1313/blog/sim/posts/build_blog/</link>
+      <pubDate>Tue, 10 Mar 2026 20:26:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/blog/sim/posts/build_blog/</guid>
+      
+        <description>我怎麼拼出這個網站的</description>
+      
+    </item>
+    
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/blog/sim/posts/test/</link>
+      <link>http://localhost:1313/blog/sim/posts/about/</link>
       <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/blog/sim/posts/test/</guid>
+      <guid>http://localhost:1313/blog/sim/posts/about/</guid>
       
         <description>哈哈這我</description>
       

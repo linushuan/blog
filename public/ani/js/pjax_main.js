@@ -188,6 +188,7 @@
     };
     const sections = [...navItems].map((element, index) => {
       const link = element.querySelector("a");
+      if (!link) return null;
       link.off("click").on("click", (e) => anchorScroll(e, index));
       const anchor = document.getElementById(
         decodeURI(link.getAttribute("href")).slice(1)
@@ -212,9 +213,10 @@
       while (!parent.matches(".sidebar-toc-sidebar")) {
         if (parent.matches("li")) {
           parent.classList.add("active");
-          const t = document.getElementById(
-            decodeURI(parent.querySelector("a").getAttribute("href").slice(1))
-          );
+          const parentLink = parent.querySelector("a");
+          const t = parentLink ? document.getElementById(
+            decodeURI(parentLink.getAttribute("href").slice(1))
+          ) : null;
           if (t) {
             t.classList.add("active");
           }

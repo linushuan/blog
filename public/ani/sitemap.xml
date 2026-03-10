@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/ani/tags/blog/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/posts/build_blog/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/categories/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/categories/daily/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/categories/notes/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/posts/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/tags/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ani/</loc>
+    <lastmod>2026-03-10T20:26:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/ani/tags/about/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ani/posts/test/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/ani/categories/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/ani/categories/notes/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/ani/posts/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/ani/tags/</loc>
-    <lastmod>2026-03-08T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/ani/</loc>
+    <loc>http://localhost:1313/blog/ani/posts/about/</loc>
     <lastmod>2026-03-08T12:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/ani/about/</loc>
