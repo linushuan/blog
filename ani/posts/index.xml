@@ -12,12 +12,32 @@
     
     <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 20:26:00 +0800</lastBuildDate>
     
     
     <atom:link href="https://linushuan.github.io/blog/ani/posts/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>Build Blog</title>
+      <link>https://linushuan.github.io/blog/ani/posts/build_blog/</link>
+      <pubDate>Tue, 10 Mar 2026 20:26:00 &#43;0800</pubDate>
+      <author>linus971211@gmail.com (Wonderhoi)</author>
+      <guid>https://linushuan.github.io/blog/ani/posts/build_blog/</guid>
+      <description>
+        <![CDATA[<h1>Build Blog</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
+        
+          A article about how I build my blog
+        
+        <hr><p>本文2026-03-10首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-10</p>]]>
+      </description>
+      
+        <category>Daily</category><category>Notes</category>
+      
+    </item>
     
     
 

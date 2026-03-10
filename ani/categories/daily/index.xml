@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on Wonderhoi&#39;s Realm</title>
-    <link>https://linushuan.github.io/blog/ani/categories/notes/</link>
+    <title>Daily on Wonderhoi&#39;s Realm</title>
+    <link>https://linushuan.github.io/blog/ani/categories/daily/</link>
     <description>Recent content from Wonderhoi&#39;s Realm</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 10 Mar 2026 20:26:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://linushuan.github.io/blog/ani/categories/notes/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://linushuan.github.io/blog/ani/categories/daily/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -36,26 +36,6 @@
       </description>
       
         <category>Daily</category><category>Notes</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>About me</title>
-      <link>https://linushuan.github.io/blog/ani/posts/about/</link>
-      <pubDate>Sun, 08 Mar 2026 12:00:00 &#43;0800</pubDate>
-      <author>linus971211@gmail.com (Wonderhoi)</author>
-      <guid>https://linushuan.github.io/blog/ani/posts/about/</guid>
-      <description>
-        <![CDATA[<h1>About me</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
-        
-          haha
-        
-        <hr><p>本文2026-03-08首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-08</p>]]>
-      </description>
-      
-        <category>Notes</category>
       
     </item>
     
