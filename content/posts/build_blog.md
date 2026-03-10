@@ -1,14 +1,14 @@
 ---
-title: "Build Blog"　# 標題
-date: 2026-03-10T20:26:00+08:00 #　發布時間
-draft: false　# 草稿
+title: "Build Blog" # 標題
+date: 2026-03-10T20:26:00+08:00 # 發布時間
+draft: false # 草稿
 description: "我怎麼拼出這個網站的" # ani 摘要
-summary: "A article about how I build my blog"　# sim 摘要
-author: "Linuk"　# 作者
+summary: "A article about how I build my blog" # sim 摘要
+author: "Linuk" # 作者
 
-#　can put many in
-tags: ["blog"]　# 標籤
-categories: ["Daily", "Notes"]　# 分類
+# can put many in
+tags: ["blog"] # 標籤
+categories: ["Daily", "Notes"] # 分類
 
 math: true            # Latex 支援
 toc: true             # 是否顯示目錄 (Anatole 支援)
