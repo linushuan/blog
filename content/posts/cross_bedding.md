@@ -15,7 +15,7 @@ toc: true             # 是否顯示目錄 (Anatole 支援)
 
 # picture put in static/
 # thumbnail: "icon.png" # Anatole
-cover: "shouko.png"     # Reimu
+cover: "shouko.jpg"     # Reimu
 ---
 
 > 會持續補全(大概)
