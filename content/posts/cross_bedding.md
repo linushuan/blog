@@ -15,7 +15,7 @@ toc: true             # 是否顯示目錄 (Anatole 支援)
 
 # picture put in static/
 # thumbnail: "icon.png" # Anatole
-cover: "icon.png"     # Reimu
+cover: "shouko.png"     # Reimu
 ---
 
 > 會持續補全(大概)
@@ -76,3 +76,4 @@ foreset 的傾角最多只會到 $34^\circ$ 因為這是可沈積的最斜角度
 https://geologyistheway.com/sedimentary/cross-bedding/
 https://geo.libretexts.org/Courses/SUNY_Potsdam/Sedimentary_Geology%3A_Rocks_Environments_and_Stratigraphy/04%3A_Sedimentary_Structures/4.02%3A_Structures_Formed_by_Unidirectional_Currents
 https://en.wikipedia.org/wiki/Herringbone_cross-stratification
+https://x.com/rurinohouseki
