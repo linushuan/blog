@@ -1,7 +1,7 @@
 ---
 title: "STL in C++" # 標題
-date: 2026-03-11T22:19:26+08:00 #　發布時間
-draft: true　# 草稿
+date: 2026-03-11T22:19:26+08:00 # 發布時間
+draft: true # 草稿
 description: "A useful default template in c++" # ani 摘要
 summary: "A useful  default template in c++" # sim 摘要
 author: "Linuk" # 作者
@@ -46,7 +46,7 @@ vector<double> vec2;
 因為實際上 `vector` 裡面放的是 template 可以接受有定義運算(*註1)的型別
 
 how to use:
-```cppp
+```cpp
 template <typename T>
 class vector {
 

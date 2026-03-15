@@ -4,6 +4,7 @@ title = "Linuk Note's"
 layoutDir = "layouts-sim"
 theme = 'anatole'
 publishDir = 'public/sim'
+hasCJKLanguage = true
 
 [[menu.main]]
     name = "Home"

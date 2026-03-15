@@ -6,6 +6,7 @@ theme = 'reimu'
 layoutDir = 'layouts-ani'
 publishDir = 'public/ani'
 mainSections = ["posts"]
+hasCJKLanguage = true
 
 [markup.highlight]
   noClasses = false
