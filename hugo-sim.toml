@@ -53,5 +53,8 @@ hasCJKLanguage = true
     title = "Email"
     url = "mailto:linus971211@gmail.com"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 
 

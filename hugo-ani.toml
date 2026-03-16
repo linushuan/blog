@@ -8,6 +8,9 @@ publishDir = 'public/ani'
 mainSections = ["posts"]
 hasCJKLanguage = true
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [markup.highlight]
   noClasses = false
   guessSyntax = true
