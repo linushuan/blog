@@ -100,11 +100,10 @@
       {{ end }}
       {{ if not .Site.Params.disableThemeSwitcher }}
         <li class="nav__list-item">
-          <a id="nav-style-btn" class="nav-icon" href="#" title="Switch Style" aria-label="Switch Style"></a>
+          <a id="nav-style-btn" class="nav-icon" href="#" title="Switch Style" aria-label="Switch Style">
             <i class="fas fa-palette fa-fw" aria-hidden="true"></i>
           </a>
-        </li>
-        <script>
+          <script>
           (function() {
             var p = window.location.pathname;
             var btn = document.getElementById('nav-style-btn');
@@ -113,7 +112,8 @@
               ? p.replace('/ani/', '/sim/')
               : p.replace('/sim/', '/ani/');
           })();
-        </script>
+          </script>
+        </li>
         <li class="nav__list-item">
           <div class="themeswitch">
             <a title="Switch Theme">
