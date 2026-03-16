@@ -3,81 +3,45 @@
   <channel>
     <title>Wonderhoi&#39;s Realm</title>
     <link>https://linushuan.github.io/blog/ani/</link>
-    <description>Recent content from Wonderhoi&#39;s Realm</description>
+    <description>Recent content on Wonderhoi&#39;s Realm</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    
-    <managingEditor>linus971211@gmail.com (Wonderhoi)</managingEditor>
-    <webMaster>linus971211@gmail.com (Wonderhoi)</webMaster>
-    
-    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
-    
     <lastBuildDate>Thu, 12 Mar 2026 13:56:38 +0800</lastBuildDate>
-    
-    
-    <atom:link href="https://linushuan.github.io/blog/ani/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
+    <atom:link href="https://linushuan.github.io/blog/ani/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cross bedding</title>
       <link>https://linushuan.github.io/blog/ani/posts/cross_bedding/</link>
-      <pubDate>Thu, 12 Mar 2026 13:56:38 &#43;0800</pubDate>
-      <author>linus971211@gmail.com (Wonderhoi)</author>
+      <pubDate>Thu, 12 Mar 2026 13:56:38 +0800</pubDate>
       <guid>https://linushuan.github.io/blog/ani/posts/cross_bedding/</guid>
-      <description>
-        <![CDATA[<h1>Cross bedding</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
-        
-          交錯層
-        
-        <hr><p>本文2026-03-12首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-12</p>]]>
-      </description>
-      
-        <category>ES</category><category>Notes</category>
-      
+      <description>交錯層</description>
     </item>
-    
-    
-
     <item>
       <title>Build Blog</title>
       <link>https://linushuan.github.io/blog/ani/posts/build_blog/</link>
-      <pubDate>Tue, 10 Mar 2026 20:26:00 &#43;0800</pubDate>
-      <author>linus971211@gmail.com (Wonderhoi)</author>
+      <pubDate>Tue, 10 Mar 2026 20:26:00 +0800</pubDate>
       <guid>https://linushuan.github.io/blog/ani/posts/build_blog/</guid>
-      <description>
-        <![CDATA[<h1>Build Blog</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
-        
-          A article about how I build my blog
-        
-        <hr><p>本文2026-03-10首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-10</p>]]>
-      </description>
-      
-        <category>Daily</category><category>Notes</category>
-      
+      <description>A article about how I build my blog</description>
     </item>
-    
-    
-
     <item>
       <title>About me</title>
       <link>https://linushuan.github.io/blog/ani/posts/about/</link>
-      <pubDate>Sun, 08 Mar 2026 12:00:00 &#43;0800</pubDate>
-      <author>linus971211@gmail.com (Wonderhoi)</author>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
       <guid>https://linushuan.github.io/blog/ani/posts/about/</guid>
-      <description>
-        <![CDATA[<h1>About me</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
-        
-          haha
-        
-        <hr><p>本文2026-03-08首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-08</p>]]>
-      </description>
-      
-        <category>Notes</category>
-      
+      <description>haha</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>https://linushuan.github.io/blog/ani/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://linushuan.github.io/blog/ani/about/</guid>
+      <description>&lt;h2 id=&#34;name&#34;&gt;name:&lt;/h2&gt;&#xA;&lt;h4 id=&#34;yellow-top-right&#34;&gt;yellow top right&lt;/h4&gt;&#xA;&lt;h4 id=&#34;linuk&#34;&gt;linuk&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/JwDUgDw.jpeg&#34; alt=&#34;cube&#34;&gt;&#xA;主要用這個(大概啦&lt;/p&gt;&#xA;&lt;h4 id=&#34;wonderhoi&#34;&gt;wonderhoi&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://preview.redd.it/kvxwxs89gqj81.png?auto=webp&amp;amp;s=5d9e3be561dcaa0af05beea32d88b1ec60239b71&#34; alt=&#34;wonderhoy&#34;&gt;&#xA;寫code用的&lt;/p&gt;&#xA;&lt;h2 id=&#34;學歷&#34;&gt;學歷(?):&lt;/h2&gt;&#xA;&lt;p&gt;國小一二年級: 隆田國小&lt;br&gt;&#xA;國小三到六年級: 麻豆國小 資優班&lt;br&gt;&#xA;國中: 建興國中 資優班&lt;br&gt;&#xA;高中: 台南一中 科學班&lt;br&gt;&#xA;大學: ???&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Friend</title>
+      <link>https://linushuan.github.io/blog/ani/friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://linushuan.github.io/blog/ani/friend/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -3,41 +3,17 @@
   <channel>
     <title>About on Wonderhoi&#39;s Realm</title>
     <link>https://linushuan.github.io/blog/ani/tags/about/</link>
-    <description>Recent content from Wonderhoi&#39;s Realm</description>
+    <description>Recent content in About on Wonderhoi&#39;s Realm</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    
-    <managingEditor>linus971211@gmail.com (Wonderhoi)</managingEditor>
-    <webMaster>linus971211@gmail.com (Wonderhoi)</webMaster>
-    
-    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
-    
     <lastBuildDate>Sun, 08 Mar 2026 12:00:00 +0800</lastBuildDate>
-    
-    
-    <atom:link href="https://linushuan.github.io/blog/ani/tags/about/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
-    
-
+    <atom:link href="https://linushuan.github.io/blog/ani/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
       <link>https://linushuan.github.io/blog/ani/posts/about/</link>
-      <pubDate>Sun, 08 Mar 2026 12:00:00 &#43;0800</pubDate>
-      <author>linus971211@gmail.com (Wonderhoi)</author>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0800</pubDate>
       <guid>https://linushuan.github.io/blog/ani/posts/about/</guid>
-      <description>
-        <![CDATA[<h1>About me</h1><p>作者：Wonderhoi（linus971211@gmail.com）</p>
-        
-          haha
-        
-        <hr><p>本文2026-03-08首發於<a href='https://linushuan.github.io/blog/ani/'>Wonderhoi's Realm</a>，最後修改於2026-03-08</p>]]>
-      </description>
-      
-        <category>Notes</category>
-      
+      <description>haha</description>
     </item>
-    
   </channel>
 </rss>

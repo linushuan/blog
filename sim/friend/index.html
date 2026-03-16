@@ -387,7 +387,17 @@
       
       
         <li class="nav__list-item">
-          <a href="https://linushuan.github.io/blog/ani/" title="Style" class="nav__style-link">
+          <a id="nav-style-btn" class="nav-icon" href="#" title="Switch Style" aria-label="Switch Style"></a>
+          <script>
+          (function() {
+            var p = window.location.pathname;
+            var btn = document.getElementById('nav-style-btn');
+            if (!btn) return;
+            btn.href = p.indexOf('/ani/') !== -1
+              ? p.replace('/ani/', '/sim/')
+              : p.replace('/sim/', '/ani/');
+          })();
+          </script>
             <i class="fas fa-palette fa-fw" aria-hidden="true"></i>
           </a>
         </li>
