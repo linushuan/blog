@@ -1,3 +1,16 @@
 {{- define "main" -}}
-  {{- partial "list.html" . -}}
+  {{- $pageSize := 0 -}}
+  {{- with $.Site.Params.paginate.post -}}
+    {{- $pageSize = . -}}
+  {{- end -}}
+  {{- $paginator := "" -}}
+  {{- if gt $pageSize 0 -}}
+    {{- $paginator = .Paginate .Pages $pageSize -}}
+  {{- else -}}
+    {{- $paginator = .Paginate .Pages -}}
+  {{- end -}}
+  {{- range $k, $v := $paginator.Pages -}}
+    {{- partial "post.html" (dict "index" $k "ctx" $ "page" $v) -}}
+  {{- end -}}
+  {{- partial "pagination.html" . -}}
 {{- end -}}
