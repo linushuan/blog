@@ -1,7 +1,7 @@
 ---
 title: Archives
 aliases:
-  - /posts/
+  - posts/
 layout: archives
 ---
 
