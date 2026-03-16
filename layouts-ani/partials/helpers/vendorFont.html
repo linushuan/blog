@@ -1,1 +1,21 @@
-../../../themes/reimu/layouts/partials/helpers/vendorFont.html
+{{- $custom_basic_font := .Site.Params.custom_font.article -}}
+{{- range $custom_basic_font -}}
+  <link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="{{ .css }}"
+    onload="this.rel='stylesheet'"
+  />
+{{- end -}}
+
+{{- $custom_code_font := .Site.Params.custom_font.code -}}
+{{- range $custom_code_font -}}
+  <link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="{{ .css }}"
+    onload="this.rel='stylesheet'"
+  />
+{{- end -}}

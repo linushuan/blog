@@ -1,1 +1,7 @@
-../../themes/reimu/layouts/shortcodes/friendsLink.xml
+{{- $friends := .Site.Data.friends -}}
+
+<div class="friend-wrap" data-aos="zoom-in">
+  {{- range $friends -}}
+    <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+  {{- end -}}
+</div>
