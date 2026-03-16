@@ -32,7 +32,17 @@
     {{- if .Site.Params.algolia_search.enable -}}
       <a id="nav-search-btn" class="nav-icon popup-trigger" title="{{ i18n "search" }}" aria-label="{{ i18n "search" }}"></a>
     {{- end -}}
-    <a id="nav-style-btn" class="nav-icon" href="https://linushuan.github.io/blog/sim/" title="Switch Style" aria-label="Switch Style"></a>
+    <a id="nav-style-btn" class="nav-icon" href="#" title="Switch Style" aria-label="Switch Style"></a>
+    <script>
+    (function() {
+      var p = window.location.pathname;
+      var btn = document.getElementById('nav-style-btn');
+      if (!btn) return;
+      btn.href = p.indexOf('/ani/') !== -1
+        ? p.replace('/ani/', '/sim/')
+        : p.replace('/sim/', '/ani/');
+    })();
+    </script>
   </nav>
   {{- if and hugo.IsMultilingual (ne "404" .Type) -}}
     {{- $i18nMap := dict -}}
