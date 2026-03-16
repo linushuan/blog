@@ -43,6 +43,13 @@ bedload:\
 通常水流環境的界面(一層一層的)厚度會在公尺以下, 沙漠環境則常在公尺以上\
 可以由前積層(foreset)堆積方向得知沈積時的水流方向
 
+### cross-lamination
+交錯層理
+泛指各種大小的沉積交錯
+與 cross-bedding 不同的是尺度差異
+cross-bedding 通常在數十公分 ~ 數公尺
+而 cross lamination 也可以描述公分、公分以下的交錯層理
+
 ### Tabular(planar) cross-bedding
 #### 板狀交錯層
 交錯層成平行排列(層與層之間平行沒有交錯)\
