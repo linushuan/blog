@@ -248,4 +248,5 @@ magma 是在地底下的岩漿 而 lava 是指流出地表的岩漿
 magma mixing 岩漿混合 -> 看不出有多種岩漿\
 magma mingling 岩漿混和 -> 看得出\
 熔積岩: **沉積物** 與岩漿混合冷卻
-	
+
+<small>圖片來源:https://konosuba.com/</small>
