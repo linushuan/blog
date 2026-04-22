@@ -36,6 +36,7 @@ hasCJKLanguage = true
     customCss = ["sim/css/custom.css"]
     fontawesome = true
     description = "TNFSH | Coder | Earth science lover"
+    favicon = "/"
 
 
 [[params.socialIcons]]
