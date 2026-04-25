@@ -64,5 +64,11 @@ hasCJKLanguage = true
   [markup.goldmark.extensions.extras.subscript]
     enable = true
 
+[markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+        block = [["$$", "$$"], ["\\[", "\\]"]]
+        inline = [["$", "$"], ["\\(", "\\)"]]
+
 
 
