@@ -57,5 +57,12 @@ hasCJKLanguage = true
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup.goldmark.extensions]
+  strikethrough = false
+  [markup.goldmark.extensions.extras.delete]
+    enable = true
+  [markup.goldmark.extensions.extras.subscript]
+    enable = true
+
 
 
