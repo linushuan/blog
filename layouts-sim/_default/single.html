@@ -47,22 +47,7 @@
       {{ end }}
 
       {{- partial "expirationnote.html" . -}}
-
-      {{- if (eq .Params.toc true) -}}
-        <div class="post-with-toc">
-          <div class="post-body">
-        {{- partial "expirationnote.html" . -}}
       {{ .Content }}
-        </div>
-          <div class="toc-floating">
-            <div class="toc-title">Table Of Contents</div>
-            {{ .TableOfContents }}
-          </div>
-        </div>
-      {{- else -}}
-      {{- partial "expirationnote.html" . -}}
-      {{ .Content }}
-      {{- end -}}
 
       {{- if isset .Params "series" -}}
         {{- partial "series.html" . -}}
@@ -121,10 +106,10 @@
           {{ partial "comments/gitalk.html" . }}
         </div>
       {{- end -}}
+    {{ end }}
     {{- if (eq .Params.toc true) -}}
       {{- partial "toc-highlight.html" . -}}
     {{- end -}}
-    {{ end }}
 
   </div>
 {{ end }}

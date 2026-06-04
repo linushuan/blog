@@ -1,0 +1,65 @@
+<script>
+(function () {
+  var tocLinks = document.querySelectorAll('.sidebar-toc nav a');
+  if (!tocLinks.length) return;
+
+  var headings = Array.from(document.querySelectorAll(
+    '.post__content h1[id], .post__content h2[id], .post__content h3[id], ' +
+    '.post__content h4[id], .post__content h5[id], .post__content h6[id]'
+  ));
+  if (!headings.length) return;
+
+  var idToLink = {};
+  tocLinks.forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (href && href.startsWith('#')) idToLink[href.slice(1)] = a;
+  });
+
+  var currentId = null;
+
+  function activate(id) {
+    if (currentId === id) return;
+    currentId = id;
+
+    tocLinks.forEach(function (a) {
+      a.classList.remove('active');
+      a.parentElement.classList.remove('active');
+    });
+
+    var link = idToLink[id];
+    if (!link) return;
+
+    link.classList.add('active');
+    var el = link.parentElement;
+    while (el && el.tagName !== 'NAV') {
+      if (el.tagName === 'LI') el.classList.add('active');
+      el = el.parentElement;
+    }
+  }
+
+  var visible = new Set();
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) visible.add(e.target);
+      else visible.delete(e.target);
+    });
+
+    var top = null, topY = Infinity;
+    visible.forEach(function (h) {
+      var y = h.getBoundingClientRect().top;
+      if (y >= 0 && y < topY) { topY = y; top = h; }
+    });
+
+    if (!top) {
+      headings.forEach(function (h) {
+        if (h.getBoundingClientRect().top < 0) top = h;
+      });
+    }
+
+    if (top) activate(top.id);
+  }, { rootMargin: '0px 0px -50% 0px', threshold: 0 });
+
+  headings.forEach(function (h) { observer.observe(h); });
+})();
+</script>
