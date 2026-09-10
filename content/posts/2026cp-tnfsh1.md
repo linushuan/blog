@@ -1,6 +1,6 @@
 ---
 title: "2026校內資訊能競初選" # 標題
-date: 2026-09-11T20:43:37+08:00 # 發布時間
+date: 2026-09-10T22:43:37+08:00 # 發布時間
 draft: false # 草稿
 description: "2026TNFSH校內資訊能競初選" # ani 摘要
 summary: "2026TNFSH校內資訊能競初選" # sim 摘要
@@ -15,7 +15,7 @@ toc: true             # 是否顯示目錄 (Anatole 支援)
 
 # picture put in static/
 thumbnail: "shiori.jpg" # Anatole
-cover: "shiori.jpg"     # Reimu
+# cover: "shiori.jpg"     # Reimu
 ---
 
 許久沒碰競程剛從地奧回鍋\
@@ -124,3 +124,6 @@ asdfg 又藏 code 藏到燒機 怎麼 pA 30 分鐘才 submit
 中間一直卡在 200 分的時候也沒什麼壓力 倒是 tobiichi 看得滿緊張的w\
 後來沒有多想 pD 後分數根本用噴的 一路飆上去\
 希望複賽也能像這次一樣發揮
+
+
+<small>cover from: 對我垂涎欲滴的非人少女</small>
