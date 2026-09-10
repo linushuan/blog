@@ -1,7 +1,7 @@
 ---
 title: "Sedimentary rock" # 標題
 date: 2026-04-01T15:06:55+08:00 # 發布時間
-draft: false # 草稿
+draft: true # 草稿
 description: "沉積岩" # ani 摘要
 summary: "沉積岩" # sim 摘要
 author: "Linuk" # 作者
