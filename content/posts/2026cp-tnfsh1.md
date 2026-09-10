@@ -14,8 +14,8 @@ math: true            # Latex 支援
 toc: true             # 是否顯示目錄 (Anatole 支援)
 
 # picture put in static/
-thumbnail: "shiori.jpg" # Anatole
-# cover: "shiori.jpg"     # Reimu
+# thumbnail: "shiori.jpg" # Anatole
+cover: "shiori.jpg"     # Reimu
 ---
 
 許久沒碰競程剛從地奧回鍋\
