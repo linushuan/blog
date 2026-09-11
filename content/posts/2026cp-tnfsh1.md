@@ -22,7 +22,7 @@ cover: "shiori.jpg"     # Reimu
 然後初選就打得特別好所以來寫一下心得
 
 放成績先
-![總排名](../pictures/2026cp-pre-all.png)
+![總排名](../pictures/2026cp-pre-all-fix.png)
 
 ![分數曲線](../pictures/2026cp-pre-mysc.png)
 
@@ -115,8 +115,7 @@ pF: 純暴力題\
 感覺有點小水 沒用到什麼演算法 但打得很開心
 
 然後\
-pychen 怎麼寫那麼快他不是沒打競程了嗎\
-asdfg 又藏 code 藏到燒機 怎麼 pA 30 分鐘才 submit
+pychen 怎麼寫那麼快他不是沒打競程了嗎
 
 一開始 pB 燒機我以為我完蛋了 還好後來有很快的想到解法\
 然後後來卡 pD 很久就只是為了要多拿 6 分超好笑\
