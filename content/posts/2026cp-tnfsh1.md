@@ -8,7 +8,7 @@ author: "Linuk" # 作者
 
 # can put many in
 tags: ["daily", "cp"] # 標籤
-categories: ["CP", "Coding"] # 分類
+categories: ["CP", "Coding", "Daily"] # 分類
 
 math: true            # Latex 支援
 toc: true             # 是否顯示目錄 (Anatole 支援)
