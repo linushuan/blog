@@ -622,8 +622,11 @@ injector:
       content: "\f53f";
       font-weight: 900;
     }
+    :root {
+      --color-default: #3d2b5e !important;
+    }
     [data-theme="dark"] {
-      --color-default: #e8d5f5 !important;
+      --color-default: #f5eefc !important;
       --color-background: #1a1625 !important;
       --color-wrap: #211d30 !important;
       --color-sticky: #211d30 !important;
@@ -634,6 +637,19 @@ injector:
     [data-theme="dark"] img.lazyloaded {
       animation: none !important;
       filter: brightness(100%) !important;
+    }
+    .chroma .n,
+    .chroma .na,
+    .chroma .nc,
+    .chroma .no,
+    .chroma .nd,
+    .chroma .ni,
+    .chroma .ne,
+    .chroma .fm,
+    .chroma .nn,
+    .chroma .nx,
+    .chroma .py {
+      color: var(--highlight-foreground) !important;
     }
     </style>
   body_begin: # Inject code snippet right after <body>
@@ -757,14 +773,14 @@ internal_theme:
     --highlight-background: "#fdf6ff"
     --highlight-selection: "#e1bee788"
     --highlight-foreground: "#3d2b5e"
-    --highlight-comment: "#9e7bb5"
+    --highlight-comment: "#845aa0"
     --highlight-red: "#c2185b"
     --highlight-orange: "#ad1457"
     --highlight-yellow: "#7b1fa2"
     --highlight-green: "#4a148c"
     --highlight-aqua: "#6a1b9a"
     --highlight-blue: "#4527a0"
-    --highlight-purple: "#b388ff"
+    --highlight-purple: "#8946ff"
     --highlight-deletion: "#c2185b"
     --highlight-deletion-bg: "#fce4ec"
     --highlight-addition: "#7b1fa2"
@@ -786,15 +802,15 @@ internal_theme:
     --highlight-scrollbar: "#6a4c93"
     --highlight-background: "#1a1625"
     --highlight-selection: "#6a4c9355"
-    --highlight-foreground: "#e8d5f5"
-    --highlight-comment: "#9e7bb5"
-    --highlight-red: "#f48fb1"
+    --highlight-foreground: "#ffffff"
+    --highlight-comment: "#cfbeda"
+    --highlight-red: "#f6a2be"
     --highlight-orange: "#ffb3c1"
-    --highlight-yellow: "#ce93d8"
-    --highlight-green: "#b39ddb"
+    --highlight-yellow: "#d9abe0"
+    --highlight-green: "#c3b2e3"
     --highlight-aqua: "#90caf9"
     --highlight-blue: "#80d8ff"
-    --highlight-purple: "#ea80fc"
+    --highlight-purple: "#ef9cfd"
     --highlight-deletion: "#f48fb1"
     --highlight-deletion-bg: "#4a1942"
     --highlight-addition: "#ce93d8"
