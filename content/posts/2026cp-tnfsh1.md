@@ -4,7 +4,7 @@ date: 2026-09-10T22:43:37+08:00 # 發布時間
 draft: false # 草稿
 description: "2026TNFSH校內資訊能競初選" # ani 摘要
 summary: "2026TNFSH校內資訊能競初選" # sim 摘要
-author: "Linuk" # 作者
+author: "Wonderhoi" # 作者
 
 # can put many in
 tags: ["daily", "cp"] # 標籤
