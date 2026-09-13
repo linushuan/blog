@@ -26,6 +26,8 @@ cover: "shiori.jpg"     # Reimu
 
 ![分數曲線](../pictures/2026cp-pre-mysc.png)
 
+[題目](https://toj.tfcis.org/oj/proset/?&order=None&show=all&proclass_id=220&topcoder=ignore)
+
 ## 前情提要
 我大概快一年沒有碰競程了\
 國際賽回來之後其實特別放鬆本來說要認真準備捲爆全場但都在睡覺\
