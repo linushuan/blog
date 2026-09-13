@@ -303,25 +303,37 @@
 <blockquote>
 <p>最好趁記得的時候打一打 不然會像我的選訓心得一樣</p>
 </blockquote>
-<p>賽前跟 tobiichi 說這次目標是前5<small>居然達成了不可思議</small></p>
-<p>今天早上考地科的能競 然後燒機所以早上心態其實沒有很好<del>雖然也有可能是這樣所以打code發洩情緒</del></p>
-<p>第四節吃完飯就跟 asdfg 和 brinton 去萊爾富買飲料<del>原翠 真理果綠果然厲害</del>
+<p>賽前跟 tobiichi 說這次目標是前5<br>
+<small>居然達成了不可思議</small></p>
+<p>今天早上考地科的能競 然後燒機<br>
+所以早上心態其實沒有很好<br>
+<del>雖然也有可能是這樣所以打code發洩情緒</del></p>
+<p>第四節吃完飯就跟 asdfg 和 brinton 去萊爾富買飲料<br>
+<del>原翠 真理果綠果然厲害</del><br>
 然後就過去社部了</p>
 <h2 id="測機">
 <a class="header-anchor" href="#%e6%b8%ac%e6%a9%9f"></a>
 測機
-</h2><p>第一題和第二題就很水第三題是互動題 題目看錯 燒雞了一陣子發現是題目看錯 結果還是98.2分但至少有熟悉了互動題 不然很久沒打了</p>
-<p>bonus1: 帳號偷懶沒有把前綴的24改成25 <del>譴責</del>
+</h2><p>第一題和第二題就很水<br>
+第三題是互動題 題目看錯 燒雞了一陣子<br>
+發現是題目看錯 結果還是98.2分<br>
+但至少有熟悉了互動題 不然很久沒打了</p>
+<p>bonus1: 帳號偷懶沒有把前綴的24改成25 <del>譴責</del><br>
 bonus2: 剛開始tobiichi忘記把正式賽題目關掉 所以記分板有題目名稱ww</p>
 <h2 id="正式賽">
 <a class="header-anchor" href="#%e6%ad%a3%e5%bc%8f%e8%b3%bd"></a>
 正式賽
-</h2><p>一開始先開了wsl創檔案 cpeditor打模板我真的不會用windows</p>
+</h2><p>一開始先開了wsl創檔案 cpeditor打模板<br>
+我真的不會用windows\</p>
 <h2 id="pa">
 <a class="header-anchor" href="#pa"></a>
 pA
-</h2><p>一開始沒管那麼多就直接寫pA 果然是水題 位元枚舉一下就好但也花了10幾分鐘賽後被 blame 打爆 忘了可以用 next_permutation()</p>
-<p>bonus1: 一開始錯了一次 原因是忘記重置變數戳出去但本地沒跟我說 不嘻嘻bonus2: 我用int128砸ww 怕溢位</p>
+</h2><p>一開始沒管那麼多就直接寫pA 果然是水題 位元枚舉一下就好<br>
+但也花了10幾分鐘<br>
+賽後被 blame 打爆 忘了可以用 next_permutation()</p>
+<p>bonus1: 一開始錯了一次 原因是忘記重置變數戳出去<br>
+但本地沒跟我說 不嘻嘻<br>
+bonus2: 我用int128砸ww 怕溢位</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;
 </span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="cp">#define squre(x) ((x)*(x))
@@ -373,11 +385,29 @@ pA
 </span></span></code></pre></div><h2 id="pb">
 <a class="header-anchor" href="#pb"></a>
 pB
-</h2><p>其實在寫的時候看到有人寫pC 90幾分 就知道是互動題了<del>所以先繼續寫pB</del>
-發現是數學題所以覺得自己很有機會寫很快發現是要檢測質數 就無腦刻了miller-rabin質數測試結果寫錯 :( 燒雞而且一開始在算要開到幾次方根時 我把 $10^{18}$ 寫成 $10^8$ 所以次方數算錯然後燒雞ww大概花了30分鐘才發現中間看到很多人拿了pB 100分 就覺得自己想法有問題了ww換了檢驗質數演算法之後才發現自己是智障 但還是只拿了60分因為一直debug不出來 所以就跑去寫pC了</p>
-<p>因為60分是TLE所以在想說怎樣可以加快有注意到t次方從1枚舉需要的數字太慢了所以在想怎麼加速這時候突然有一個靈感告訴我<em><strong>今天都還沒用到二分搜</strong></em>
-然後就想到t次方根數字可以用二分搜找了就在很後面拿了一個AC 爽這個時候就拿了400分 還有一個小時發現 paul 還沒寫出 pF 所以目標就是寫出 pE追平 asdfg 但他那個時候好像已經寫出 pE 只是 pB還是60分</p>
-<p>bonus1: 寫完之後回家才發現自己的質數檢驗法一直都是寫錯的 :wa:bonus2: 中間發現 brinton 藏扣 後來回來寫這題又發現他破台了 太強 :place_of_worship:</p>
+</h2><p>其實在寫的時候看到有人寫pC 90幾分 就知道是互動題了<br>
+<del>所以先繼續寫pB</del><br>
+發現是數學題所以覺得自己很有機會寫很快<br>
+發現是要檢測質數 就無腦刻了miller-rabin質數測試<br>
+結果寫錯 :( 燒雞<br>
+而且一開始在算要開到幾次方根時 我把 $10^{18}$ 寫成 $10^8$ 所以次方數算錯然後燒雞ww<br>
+大概花了30分鐘才發現<br>
+中間看到很多人拿了pB 100分 就覺得自己想法有問題了ww<br>
+換了檢驗質數演算法之後才發現自己是智障 但還是只拿了60分<br>
+因為一直debug不出來 所以就跑去寫pC了</p>
+<p>因為60分是TLE<br>
+所以在想說怎樣可以加快<br>
+有注意到t次方從1枚舉需要的數字太慢了<br>
+所以在想怎麼加速<br>
+這時候突然有一個靈感告訴我<br>
+<strong>今天都還沒用到二分搜</strong><br>
+然後就想到t次方根數字可以用二分搜找了<br>
+就在很後面拿了一個AC 爽<br>
+這個時候就拿了400分 還有一個小時<br>
+發現 paul 還沒寫出 pF 所以目標就是寫出 pE<br>
+追平 asdfg 但他那個時候好像已經寫出 pE 只是 pB還是60分\</p>
+<p>bonus1: 寫完之後回家才發現自己的質數檢驗法一直都是寫錯的 :wa:<br>
+bonus2: 中間發現 brinton 藏扣 後來回來寫這題又發現他破台了 太強 orz\</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;
 </span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -470,10 +500,11 @@ pB
 </span></span></code></pre></div><h2 id="pc">
 <a class="header-anchor" href="#pc"></a>
 pC
-</h2><p>看到題序差不多 快速看完題目發現是數學水題 筆寫了兩條式子就推出來了<del>但其實根本就不用寫就是了</del>
-恩 就爽快的AC了原本以為互動題會更難的說</p>
+</h2><p>看到題序差不多 快速看完題目發現是數學水題 筆寫了兩條式子就推出來了<br>
+<del>但其實根本就不用寫就是了</del><br>
+恩 就爽快的AC了<br>
+原本以為互動題會更難的說</p>
 <p>bonus: 有吃WA是因為我把 $b-a$寫成 $a-b$ 可惡</p>
-<p>:::spoiler ACcode</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;
 </span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -498,8 +529,13 @@ pC
 </span></span></code></pre></div><h2 id="pd">
 <a class="header-anchor" href="#pd"></a>
 pD
-</h2><p>看完題目覺得非常熟悉 就一臉DP樣看了數字範圍 嗯嗯 $O(N^2)$ 我絕對會寫的雖說如此 轉移式有推對 但是實做小燒雞但其實是我在紙上寫太爛 賽後看題解才想到自己開二維陣列根本是腦霧</p>
-<p>bonus1: 這題我大概註解掉的code:實際演算的code大概是 1:1 超好笑bonus2: 又吃一次WA的原因是我不小心把輸出的code註解掉了(因為那裡也有拿來debug的輸出ww)</p>
+</h2><p>看完題目<br>
+覺得非常熟悉 就一臉DP樣<br>
+看了數字範圍 嗯嗯 $O(N^2)$ 我絕對會寫的<br>
+雖說如此 轉移式有推對 但是實做小燒雞<br>
+但其實是我在紙上寫太爛 賽後看題解才想到自己開二維陣列根本是腦霧</p>
+<p>bonus1: 這題我大概註解掉的code:實際演算的code大概是 1:1 超好笑<br>
+bonus2: 又吃一次WA的原因是我不小心把輸出的code註解掉了(因為那裡也有拿來debug的輸出ww)</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;
 </span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -547,17 +583,30 @@ pD
 </span></span></code></pre></div><h2 id="pe">
 <a class="header-anchor" href="#pe"></a>
 pE
-</h2><p>好又是地震好地質小組<del>這不AC說不過去吧</del>
-看完題目其實稍微想了一兩分鐘但因為有寫出 pA到pD所以信心大增而且看到很多人包括 JKdelta都寫出pE了就覺得自己一定可以</p>
-<p>有初步想法後發現是BIT覺得有點怪因為初選好像不太容易出資結?但是因為只是BIT所以好像又還好就先刻了一下在實做更改的部份時 發現單純陣列操作很難處理但又想不太到 <del>也因為三個多小時沒上廁所有點憋不住了</del>
-所以就跑去上<del>炸</del>廁所了</p>
-<p>廁所上一上就剛好想到之前地震那題是差分兩次所以就想到了差分 超棒 今天通靈得很成功回來打code結果實做繼續燒雞</p>
+</h2><p>好又是地震<br>
+好地質小組<br>
+<del>這不AC說不過去吧</del><br>
+看完題目其實稍微想了一兩分鐘<br>
+但因為有寫出 pA到pD所以信心大增<br>
+而且看到很多人包括 JKdelta都寫出pE了<br>
+就覺得自己一定可以</p>
+<p>有初步想法後發現是BIT覺得有點怪<br>
+因為初選好像不太容易出資結?<br>
+但是因為只是BIT所以好像又還好<br>
+就先刻了一下<br>
+在實做更改的部份時 發現單純陣列操作很難處理<br>
+但又想不太到 <del>也因為三個多小時沒上廁所有點憋不住了</del><br>
+所以就跑去上<del>炸</del>廁所了\</p>
+<p>廁所上一上就剛好想到之前地震那題是差分兩次<br>
+所以就想到了差分 超棒 今天通靈得很成功<br>
+回來打code結果實做繼續燒雞\</p>
 <ol>
 <li>更改的時候忘了把原本 h[l-1]&lt;h[l] 改成 h[l] &gt; 0 大概debug 5分鐘</li>
 <li>bit.modify(int value, int pos) 我在呼叫的時候一直寫反 想說怎麼都對不上</li>
 <li>看錯題目 $H_i<H_{i+1}$ 看成 $H_{i-1}<H_i$ 想說怎麼對不到範圍 是不是題目出錯了</li>
 </ol>
-<p>最後debug完之後丟上去就AC了500分 get 好爽 就稍做休息了www</p>
+<p>最後debug完之後丟上去就AC了<br>
+500分 get 好爽 就稍做休息了www</p>
 <p>bonus: 這題依然錯了一次 原因是因為第三點ww 後來馬上就發現自己看錯題目了</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;
 </span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
@@ -635,9 +684,18 @@ pE
 </span></span></code></pre></div><h2 id="pf">
 <a class="header-anchor" href="#pf"></a>
 pF
-</h2><p>因為已經500分了 而且感覺大家 pF 都燒雞(當然 除了brinton) 所以我就慢慢看題目看完題目第一個想法是DP 但覺得怪怪的腦海中有一瞬間閃出之前我也想成DP的最短路(CF2300的某題) 要建虛點之類的 但因為我不會那東西所以就放棄了</p>
-<p>原本排名都還在第二 發現自己變第三 原因是因為 blame拿了四分當時我想說 乾不是 blame連這個也要刮 那我也來拿一下4分好了然後就開始亂寫 感覺對了就傳上去看看結果一直WA 最後才把bug de掉 成功拿下最後4分但後來 paul 拿了48分就又從2掉到3了我也才發現題目配分有出入 跑去提交了第一個提問ww</p>
-<p>bonus1: blame其實沒有刮分 抱歉bonus2: 我靠這個贏了 asdfg 4分bonus3: 我有一筆CE是因為max(long long, 0)可惡</p>
+</h2><p>因為已經500分了 而且感覺大家 pF 都燒雞(當然 除了brinton) 所以我就慢慢看題目<br>
+看完題目第一個想法是DP 但覺得怪怪的<br>
+腦海中有一瞬間閃出之前我也想成DP的最短路(CF2300的某題) 要建虛點之類的 但因為我不會那東西所以就放棄了</p>
+<p>原本排名都還在第二 發現自己變第三 原因是因為 blame拿了四分<br>
+當時我想說 乾不是 blame連這個也要刮 那我也來拿一下4分好了<br>
+然後就開始亂寫 感覺對了就傳上去看看<br>
+結果一直WA 最後才把bug de掉 成功拿下最後4分<br>
+但後來 paul 拿了48分就又從2掉到3了<br>
+我也才發現題目配分有出入 跑去提交了第一個提問ww</p>
+<p>bonus1: blame其實沒有刮分 抱歉<br>
+bonus2: 我靠這個贏了 asdfg 4分<br>
+bonus3: 我有一筆CE是因為max(long long, 0)可惡</p>
 <h2 id="bonus">
 <a class="header-anchor" href="#bonus"></a>
 bonus
