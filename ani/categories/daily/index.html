@@ -41,7 +41,7 @@
   <meta property="article:author" content="Wonderhoi" />
   <meta property="article:published_time" content="2026-09-10T22:43:37&#43;08:00" />
   <meta property="article:modified_time" content="2026-09-10T22:43:37&#43;08:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://linushuan.github.io/blog/ani/banner.jpg" /><link rel="alternate" type="application/rss+xml" href="https://linushuan.github.io/blog/ani/categories/daily/index.xml" title="Wonderhoi's Realm">
-<link rel="shortcut icon" href="/blog/ani/favicon.ico"><link rel="stylesheet" href="/blog/ani/css/main.min.c3dac14b0c5710d125bcb4aafc4c2fb84a12bbb508aa1dbcd8d92c17b56515d0.css" /><link
+<link rel="shortcut icon" href="/blog/ani/favicon.ico"><link rel="stylesheet" href="/blog/ani/css/main.min.5d1481e69cf9a64aaea90d305ffda73a7a1c472fc77e26ea600753965974382e.css" /><link
     rel="preload"
     as="style"
     href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css"
@@ -74,8 +74,11 @@
   content: "\f53f";
   font-weight: 900;
 }
+:root {
+  --color-default: #3d2b5e !important;
+}
 [data-theme="dark"] {
-  --color-default: #e8d5f5 !important;
+  --color-default: #f5eefc !important;
   --color-background: #1a1625 !important;
   --color-wrap: #211d30 !important;
   --color-sticky: #211d30 !important;
@@ -86,6 +89,19 @@
 [data-theme="dark"] img.lazyloaded {
   animation: none !important;
   filter: brightness(100%) !important;
+}
+.chroma .n,
+.chroma .na,
+.chroma .nc,
+.chroma .no,
+.chroma .nd,
+.chroma .ni,
+.chroma .ne,
+.chroma .fm,
+.chroma .nn,
+.chroma .nx,
+.chroma .py {
+  color: var(--highlight-foreground) !important;
 }
 </style>
 </head>
