@@ -16,7 +16,7 @@ name:
 國小三到六年級: 麻豆國小 資優班\
 國中: 建興國中 資優班\
 高中: 台南一中 科學班\
-大學: ???
+大學: 台大電機 預定
 
 我有記得的競賽經驗:
 ---
@@ -30,6 +30,8 @@ name:
 - 地科奧林匹亞國手選拔營
 - 第十九屆地科奧林匹亞國手
 - 高一程式設計排名賽 第四(五)名
+- 第十九屆地科奧林匹亞銀牌
+- 資訊學科能力競賽 校內初選第1 複選
 
 我有記得的檢定(考試)經驗:
 ---
@@ -51,16 +53,13 @@ name:
 - 看木棉花的馬拉松直播
 - 看動畫
 - 轉方塊
-- 打音遊
 - 玩貓戰
 - 玩minecraft
 - 寫程式
-- 當半個GO廚
 
 喜歡的科目:
 ---
 
-- 數學
 - 地科
 - 資訊
 
@@ -83,8 +82,7 @@ name:
 自我介紹:
 ---
 
-TNFSH small high one.\
-Also a deadline fighter.\
+A deadline fighter.\
 A Earth science and code lover.\
 Cubing but not cubing now.\
 TOJ: 0 從零開始的[TOJ](https://toj.tfcis.org/oj/)生活\
